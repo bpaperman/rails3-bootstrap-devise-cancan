@@ -1,18 +1,18 @@
 /* Header start */
 #triangle-down{
-    right: -6px\0/;
+    right: -6px;
 }
 
 :root #triangle-down{
-    right: -7px\0/IE9;
+    right: -7px;
 }
 /* Header end */
 
 /* Side bar start */
 
 .leftmenu ul li a {
-    border-left-color: #ddd\0/;
-    border-bottom-color: #ddd\0/;
+    border-left-color: #ddd;
+    border-bottom-color: #ddd;
 }
 
 /* Side bar end */
