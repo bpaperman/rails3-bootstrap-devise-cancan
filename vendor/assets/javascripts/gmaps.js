@@ -6,10 +6,10 @@ var marker;
 function gmaps_init(){
 
   // center of the universe
-  var latlng = new google.maps.LatLng(51.751724,-1.255284);
+  var latlng = new google.maps.LatLng(45.558042,-73.730303);
 
   var options = {
-    zoom: 2,
+    zoom: 11,
     center: latlng,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };

@@ -1,14 +1,17 @@
+.row-fluid
+  .span12
+    %section.utopia-widget
+      .utopia-widget-title
+        %span Maps
+      .utopia-widget-content
+        .input-gmaps-autocomplete
+          %input#gmaps-input-address
+        .gmaps
+          #gmaps-error
+          #gmaps-canvas
+  
+
 / %h3 Home
 / - @users.each do |user|
 /   %p
 /     User: #{link_to user.name, user}
-/ 
-/ 
-#content
-  .gmaps
-    .input-gmaps-autocomplete
-      %input#gmaps-input-address
-      %br/
-      %br/
-      #gmaps-error
-    #gmaps-canvas
