@@ -6,8 +6,7 @@
     %meta{:content => content_for?(:description) ? yield(:description) : "Rails3 Bootstrap Devise Cancan", :name => "description"}
     = stylesheet_link_tag "application", :media => "all"
     = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Cuprum", "http://fonts.googleapis.com/css?family=Imprima"
-    = javascript_include_tag "http://maps.google.com/maps/api/js?sensor=false", "application", "https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"
-    = javascript_include_tag "gmaps.js"
+    = javascript_include_tag "http://maps.google.com/maps/api/js?sensor=false", "https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js", "application"
         
     //= csrf_meta_tags
     = yield(:head)
