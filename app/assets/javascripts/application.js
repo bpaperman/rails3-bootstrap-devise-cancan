@@ -12,6 +12,7 @@
 //
 //= header
 //= require jquery
+//= require jquery-ui.min
 //= require jquery_ujs
 //= require gmaps
 //= require_tree .
