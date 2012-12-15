@@ -15,4 +15,8 @@
 //= require jquery-ui.min
 //= require jquery_ujs
 //= require gmaps
+//= require underscore
+//= require jquery.events.input
+//= require jquery.elastic
+//= require jquery.mentionsInput
 //= require_tree .
